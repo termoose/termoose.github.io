@@ -10,6 +10,7 @@ theme = 'terminal'
 
   # center theme with default width
   centerTheme = true
+  fullWidthTheme = false
 
 [languages]
   [languages.en]
