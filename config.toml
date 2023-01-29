@@ -1,0 +1,31 @@
+baseURL = 'http://extab.org/'
+languageCode = 'en-us'
+title = 'Oleoleole'
+theme = 'terminal'
+
+[params]
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "green"
+  showMenuItems = 3
+
+  # center theme with default width
+  centerTheme = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Ext(A,B)"
+
+    [languages.en.params.logo]
+      logoText = "Ext(A,B)"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Github"
+        url = "https://github.com/termoose"
