@@ -1,11 +1,11 @@
-baseURL = 'http://extab.org/'
+baseURL = 'https://birked.al/'
 languageCode = 'en-us'
 title = 'Oleoleole'
 theme = 'terminal'
 
 [params]
   # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "green"
+  themeColor = "orange"
   showMenuItems = 3
 
   # center theme with default width
@@ -15,10 +15,10 @@ theme = 'terminal'
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Ext(A,B)"
+    title = "birked.al"
 
     [languages.en.params.logo]
-      logoText = "Ext(A,B)"
+      logoText = "birked.al"
       logoHomeLink = "/"
 
     [languages.en.menu]
