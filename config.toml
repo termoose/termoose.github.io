@@ -1,6 +1,7 @@
 baseURL = 'https://birked.al/'
 languageCode = 'en-us'
 title = 'Oleoleole'
+summaryLength = 10
 
 [params]
   # ["orange", "blue", "red", "green", "pink"]
